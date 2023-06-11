@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite">
+	<test name="Smokes">
+		<parameter name="URL1" value="https://Google.com"></parameter>
+		<parameter name="URL2" value="https://FaceBook.com"></parameter>
+		<classes>
+			<class name="TestingParameterization.ClassA"></class>
+		</classes>
+	</test>
+</suite>
